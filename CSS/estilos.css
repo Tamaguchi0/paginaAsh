@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
 }
 .imagen_principal {
-    width: 200px;
+    width: 400px;
     margin: 0 auto;
     text-align: center;
 
@@ -32,13 +32,13 @@ body {
 
 .pinkie {
     width: 120%;
-    max-width: 200px
+    max-width: 400px
 
 }
 
 .debajo {
     width: 150%;
-    max-width: 200px
+    max-width: 450px
 }
 .texto {
     text-align: center;
@@ -68,7 +68,7 @@ body {
 
     .imagen_principal img{
         align-self: center;
-        max-width: 50%;
+        max-width: 70%;
         margin-top: 5%;
     }
     .debajo {
