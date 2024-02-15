@@ -24,26 +24,21 @@ body {
     justify-content: space-between;
 }
 .imagen_principal {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
 .pinkie {
-    width: 20%;
-    position: relative; /* Añadido */
-    z-index: 2; /* Añadido */
-    left: -50%;
-    transform: translateX(50%);
+    width: 120%;
+    max-width: 200px
+
 }
 
 .debajo {
-    width: 25%;
-    position: absolute; /* Añadido */
-    top: 0; /* Añadido */
-    z-index: 1; /* Añadido */
-    left: -50%;
-    transform: translateX(50%);
+    width: 150%;
+    max-width: 200px
 }
 .texto {
     text-align: center;
@@ -72,6 +67,7 @@ body {
     }
 
     .imagen_principal img{
+        align-self: center;
         max-width: 50%;
         margin-top: 5%;
     }
@@ -83,7 +79,7 @@ body {
 
     }
     .pinkie{
-        width: 70%;
+        width: 110%;
     }
     button {
         height: auto;

@@ -1,4 +1,25 @@
 const yesBtn = document.querySelector('#yesBtn');
+const mensaje = [
+    "Ah graciosita",
+    "Como que no????",
+    "A ver hija de su rpm",
+    "Era el otro boton",
+    "Que este boton no",
+    "Ah necedad",
+    "Tristeza total y absoluta",
+    "Cuando alguien me amaba, me sentia tan feliz",
+    "Ah chinga",
+    "Graciosita",
+    "Me rio?",
+    "Si esta bonito perseguie el boton, pero es el otro",
+    "jiji que graciosa",
+    "Ya no me amas",
+    "pipipipipi",
+    "Satanas es playo",
+    "ja ja ja ja ja, es el otro boton"
+
+]
+
 
 yesBtn.addEventListener('click',function () { //que va a pasar si se pulsa el boton si
     let html =`
@@ -60,17 +81,17 @@ noBtn.addEventListener("touchstart", escapar);
 
 
 function mostrarAlertaCont() {
+    const indiceAleatorio = Math.floor(Math.random() * mensaje.length);
     let html =`
         <div id="swal-image">
             <img src='resources/triztesaTotalYabsoluta.gif' style="width: 200px; height: 150px">
-            <h1>>:(</h1>
-            <h2>PONER LIS DE MENSAJES</h2>
-     
-           
+        
         </div>`;
 
     Swal.fire({
         html: html,
+        title: ':(',
+        text: mensaje[indiceAleatorio],
         confirmButtonText: 'Si,soy un amor',
     })
 
