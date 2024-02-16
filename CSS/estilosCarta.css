@@ -55,8 +55,13 @@ img {
         margin-bottom: 5px;
         float: left;
     }
+    .smilePinkClass img {
+        max-width: 30%;
 
+        bottom: 100%;
+        left: 0;
 
+    }
 
 }
 
