@@ -57,7 +57,9 @@ const mensajes = [
     "¿Ya es hoy :O?",
     "La vida me regalo un instante a tu lado, mi corazón decidió que ese instante fuera eterno",
     "‘Prefiero morir mañana que vivir cien años sin conocerte’",
-    "Definitivamente no eres el poste que menos mean"
+    "Definitivamente no eres el poste que menos mean",
+    "Tus ojos son magicos, los abriste"
+
 
 
 

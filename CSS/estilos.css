@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'coquette';
-    src: url('../resources/Oh Chewy.ttf') format('truetype');
+    src: url('../resources/Valentine Cute.ttf') format('truetype');
 }
 html,
 body {
@@ -42,7 +42,7 @@ body {
 }
 .texto {
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .botones {
@@ -90,7 +90,7 @@ body {
 
 
         display: flex;
-        font-size: 14px;
+        font-size: 12px;
         padding: 4%;
     }
 
@@ -109,7 +109,7 @@ body {
     }
 
     p {
-        font-size: xx-large;
+        font-size: x-large;
     }
 
     .botones button {

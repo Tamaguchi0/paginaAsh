@@ -34,7 +34,7 @@ yesBtn.addEventListener('click',function () { //que va a pasar si se pulsa el bo
         <div id="swal-image">
             <img src='resources/fluffy.gif' style="width: 200px; height: 150px">
             <h1>YEIIII</h1>
-            <h2>Yo sabia que ibas a tomar la desición correcta :)</h2>
+            <h2>Yo sabia que ibas a tomar la desicion correcta :)</h2>
            
         </div>`;
 
