@@ -16,9 +16,15 @@ const mensaje = [
     "Ya no me amas",
     "pipipipipi",
     "Satanas es playo",
-    "ja ja ja ja ja, es el otro boton"
+    "ja ja ja ja ja, es el otro boton",
+    "Malvada",
+    "Diablas todas",
+    "Se va a llorar*",
+    "Por que me odias?",
+    "Cual fue el mal que yo hice?",
+    "P-pero"
 
-]
+];
 
 
 yesBtn.addEventListener('click',function () { //que va a pasar si se pulsa el boton si
@@ -82,17 +88,14 @@ noBtn.addEventListener("touchstart", escapar);
 
 function mostrarAlertaCont() {
     const indiceAleatorio = Math.floor(Math.random() * mensaje.length);
-    let html =`
-        <div id="swal-image">
-            <img src='resources/triztesaTotalYabsoluta.gif' style="width: 200px; height: 150px">
-        
-        </div>`;
+    const imageUrl = "resources/triztesaTotalYabsoluta.gif";
 
     Swal.fire({
-        html: html,
-        title: ':(',
+        imageUrl: imageUrl,
+        title: ":(",
         text: mensaje[indiceAleatorio],
-        confirmButtonText: 'Si,soy un amor',
+        confirmButtonText: "Si, soy un amor"
     })
+
 
 }

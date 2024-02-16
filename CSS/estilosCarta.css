@@ -28,24 +28,15 @@ img {
     transform: translate(-50%, -50%);
 }
 
-.oculto {
-    position: absolute;
-    display: none;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 5px;
-}
-.osito {
+
+.smilePinkClass {
     position: relative;
     /*position: absolute;*/
     bottom: 0;
     left: 0;
 }
-.osito img{
-    max-width: 40%;
+.smilePinkClass img{
+    max-width: 30%;
 
     bottom: 0;
     left: 0;
