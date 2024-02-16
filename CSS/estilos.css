@@ -90,7 +90,7 @@ body {
 
 
         display: flex;
-        font-size: 18px;
+        font-size: 14px;
         padding: 4%;
     }
 
@@ -115,7 +115,7 @@ body {
     .botones button {
         float: left;
         margin: 0 15px;
-        font-size: xx-large;
+        font-size: x-large;
         width: auto;
     }
 
