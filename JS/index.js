@@ -22,7 +22,9 @@ const mensaje = [
     "Se va a llorar*",
     "Por que me odias?",
     "Cual fue el mal que yo hice?",
-    "P-pero"
+    "P-pero",
+    "No le diste al otro boton",
+    "Todas mienten"
 
 ];
 
@@ -94,7 +96,7 @@ function mostrarAlertaCont() {
         imageUrl: imageUrl,
         title: ":(",
         text: mensaje[indiceAleatorio],
-        confirmButtonText: "Si, soy un amor"
+        confirmButtonText: "Bueno, ya le doy al otro"
     })
 
 
