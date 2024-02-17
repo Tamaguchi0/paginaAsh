@@ -58,8 +58,8 @@ const mensajes = [
     "La vida me regalo un instante a tu lado, mi corazón decidió que ese instante fuera eterno",
     "‘Prefiero morir mañana que vivir cien años sin conocerte’",
     "Definitivamente no eres el poste que menos mean",
-    "Tus ojos son magicos, los abriste"
-
+    "Tus ojos son magicos, los abriste",
+    "Estoy al lado tuya mientras escribo este mensaje jijiji"
 
 
 
@@ -75,10 +75,11 @@ miOso.addEventListener("click", () => {
     // Obtener un indice aleatorio
     const indiceAleatorio = Math.floor(Math.random() * mensajes.length);
 
+    const textoConEstilo = `<span style="font-size: 30px;">${mensajes[indiceAleatorio]}</span>`;
+
     Swal.fire({
         title: 'Dice maricio que: ',
-        text: mensajes[indiceAleatorio],
-
-    })
+        html: textoConEstilo,
+    });
 
 });
